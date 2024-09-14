@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Clickable Download Button</title>
+    <style>
+        .fake-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px;
+            font-size: 16px;
+            text-align: center;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: not-allowed; /* Indicates that the button cannot be clicked */
+            user-select: none; /* Prevents text selection */
+            pointer-events: none; /* Disables all pointer events */
+        }
+    </style>
+</head>
+<body>
+    <button class="fake-button">Download</button>
+</body>
+</html>
+
+
+
+
+
